@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus-client-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus-client
+  template:
+    metadata:
+      labels:
+        app: prometheus-client
+    spec:
+      containers:
+      - name: prometheus-client-container
+        image: username/prometheus-client
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 5555
