@@ -1,4 +1,4 @@
-package pk2
+package collector
 
 import (
 	"math/rand"
@@ -8,7 +8,7 @@ import (
 
 const (
 	namespace = "msp_controller"
-	subsystem = "pk2"
+	subsystem = "collector"
 )
 
 type volumeCollector struct {

@@ -1,4 +1,4 @@
-package pk1
+package directinstrumentation
 
 import (
 	"time"
@@ -9,7 +9,7 @@ import (
 
 const (
 	namespace = "msp_controller"
-	subsystem = "pk1"
+	subsystem = "directinstrumentation"
 )
 
 var (
