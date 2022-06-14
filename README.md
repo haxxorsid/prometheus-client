@@ -6,4 +6,4 @@
 3. `kubectl create -f deployment.yml`
 4. `kubectl create -f service.yml`
 5. `kubectl port-forward service/prometheus-client-svc 5555:5555`
-5. Open [localhost:5555/metrics](localhost:5555/metrics) in the browser
+5. Open [localhost:5555/metrics](http://localhost:5555/metrics) in the browser
