@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	namespace = "msp_controller"
+	namespace = "prometheus_client"
 	subsystem = "collector"
 )
 
